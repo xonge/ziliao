@@ -1,0 +1,1 @@
+1. 删除字段 alter table `user_movement_log` drop column Gatewayid

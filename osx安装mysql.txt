@@ -1,0 +1,15 @@
+chown -R mysql:mysql /usr/local/mysql/data
+
+sudo chmod -R 777 /usr/local/mysql/data
+
+bin/mysqld --initialize --user=mysql
+
+ps -ef|grep mysqld
+
+support-files/mysql.server start
+
+support-files/mysql.server status
+
+support-files/mysql.server stop
+
+bin/mysqladmin -u root password 123456asd

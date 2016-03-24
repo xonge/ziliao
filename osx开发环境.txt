@@ -1,0 +1,23 @@
+1. brew osx包管理器
+	http://brew.sh/index_zh-cn.html
+
+2. iterm2 bash加强版
+
+3. Alfred2 工作流
+
+4. dash 需要购买 24.9美元
+
+2.1 将功能键(F1-F12)设置为标准的功能键
+
+2.2 设置Trackpad（触摸板）轻触为单击
+
+2.3 将Dock停靠在屏幕左边
+
+2.4 全键盘控制模式
+
+vim ~/.zshrc
+
+zsh --version
+
+用VIM编辑文件 ：q 无法退出 出现NO write since last change (add !to override)
+	q!

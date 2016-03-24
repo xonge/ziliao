@@ -1,0 +1,14 @@
+1. 本地生成公匙
+	ssh-keygen -t rsa
+
+1. 安装 ssh-copy-id，系统不自带，需要brew下载
+	brew install ssh-copy-id
+
+1. 把本地公钥传送到远程服务器，需要提供密码
+	ssh-copy-id -i ~/.ssh/id_rsa.pub -p 27034 root@23.83.227.159
+
+1. ssh无密码远程连接
+	ssh -p '27034' 'root@23.83.227.159'
+
+2. 退出ssh远程连接
+	exit

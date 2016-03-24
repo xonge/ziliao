@@ -1,0 +1,1 @@
+1. 立即重启 shutdown -r now
