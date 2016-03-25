@@ -48,3 +48,4 @@ git push -u origin master
     使用命令：git remote add origin git@github.com:henryrao/HRString.git
     5)提交本地库中的文件到远程git库中
     使用命令：git push -u origin master
+    git push -f origin master
