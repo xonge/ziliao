@@ -49,3 +49,9 @@ git push -u origin master
     5)提交本地库中的文件到远程git库中
     使用命令：git push -u origin master
     git push -f origin master
+    
+15. 如果希望保留生产服务器上所做的改动,仅仅并入新配置项, 处理方法如下:
+    git stash
+    git pull
+    git stash pop
+    然后可以使用git diff -w +文件名 来确认代码自动合并的情况.
