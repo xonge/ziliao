@@ -35,3 +35,16 @@ git push -u origin master
 13. git filter-branch --tree-filter 'rm -f path/to/large/files' --tag-name-filter cat -- --all
     git push origin --tags --force
     git push origin --all --force
+    
+14. 1）创建git配置文件，或者叫库文件
+    使用命令：git init
+    完成以后，可以在HRString文件夹里面看到一个.git文件，默认是隐藏文件。
+    
+    2）把当前所有文件加入到本地git库中
+    使用命令： git add .
+    3）确认加入文件到本地git库
+    使用命令：git commit -m '写一些注释'
+    4）把本地项目与远程git库关联
+    使用命令：git remote add origin git@github.com:henryrao/HRString.git
+    5)提交本地库中的文件到远程git库中
+    使用命令：git push -u origin master

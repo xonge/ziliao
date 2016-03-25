@@ -164,3 +164,4 @@
        
 yum install pcre-devel
 进入安装目录，找到可行性文件nginx ，执行./nginx -t
+./nginx -s reload
