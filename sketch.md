@@ -1,0 +1,1 @@
+1. file中export出来就是PNG的格式了。
