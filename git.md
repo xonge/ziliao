@@ -55,3 +55,20 @@ git push -u origin master
     git pull
     git stash pop
     然后可以使用git diff -w +文件名 来确认代码自动合并的情况.
+    
+16. 2.2 添加提交信息
+    
+       　　如果直接运行 git commit (-a) 则会默认使用 vi 添加描述。也可以使用 git config --global core.editor 命令更改为你喜欢的编辑器。还有一个方法就是使用 -m 选项直接添加提交信息。
+    
+       $git commit -a -m "commit info"
+     
+17. git branch -a
+17. 或者使用-t参数，它默认会在本地建立一个和远程分支名字一样的分支
+    折叠展开复制代码
+    
+    $ git checkout -t origin/python_mail.skin
+    
+18. git不再监视指定文件
+    git rm --cached test.txt
+    add test.txt to .gitignore file
+    git commit -m 'i all ignore my some files' -a
